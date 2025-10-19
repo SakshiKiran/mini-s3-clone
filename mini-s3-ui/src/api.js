@@ -23,3 +23,11 @@ export const downloadObject = (bucket, key) =>
   api.get(`/buckets/${bucket}/objects/${encodeURIComponent(key)}`, {
     responseType: 'blob'
   });
+
+export const deleteObject = (bucket, key) =>
+  api.delete(`/buckets/${bucket}/objects/${encodeURIComponent(key)}`);
+
+export const deleteBucket = (bucket) =>
+  api.delete(`/buckets/${encodeURIComponent(bucket)}`);
+
+

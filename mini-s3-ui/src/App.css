@@ -1,4 +1,214 @@
 #root {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* AWS-like table styles */
+.custom-table-header {
+  background-color: #fafafa;
+  padding: 8px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+/* AWS-like spacing utilities */
+.mt-1 {
+  margin-top: 8px;
+}
+
+.mt-2 {
+  margin-top: 16px;
+}
+
+.mt-3 {
+  margin-top: 24px;
+}
+
+/* AWS-like form controls */
+.form-control {
+  width: 100%;
+  padding: 6px 12px;
+  border: 1px solid #d5dbdb;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* AWS-like container styles */
+.aws-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 0 rgba(0, 28, 36, 0.1);
+}
+
+/* AWS-like button styles */
+.aws-button {
+  background-color: #ffffff;
+  border: 1px solid #d5dbdb;
+  border-radius: 4px;
+  color: #16191f;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px 12px;
+  text-align: center;
+  transition: all 0.1s ease;
+}
+
+.aws-button:hover {
+  background-color: #f2f3f3;
+}
+
+.aws-button-primary {
+  background-color: #0972d3;
+  border-color: #0972d3;
+  color: #ffffff;
+}
+
+.aws-button-primary:hover {
+  background-color: #0459af;
+}
+
+.aws-button-danger {
+  background-color: #d91515;
+  border-color: #d91515;
+  color: #ffffff;
+}
+
+.aws-button-danger:hover {
+  background-color: #b31212;
+}
+
+/* AWS-like text styles */
+.aws-text-small {
+  font-size: 12px;
+  color: #5f6b7a;
+}
+
+.aws-text-header {
+  font-size: 18px;
+  font-weight: 500;
+  color: #16191f;
+}
+
+/* AWS-like breadcrumb styles */
+.aws-breadcrumb {
+  font-size: 14px;
+  color: #414d5c;
+}
+
+.aws-breadcrumb a {
+  color: #0972d3;
+  text-decoration: none;
+}
+
+.aws-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* AWS-like modal styles */
+.aws-modal {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.aws-modal-header {
+  padding: 16px 24px;
+  border-bottom: 1px solid #e9ebed;
+}
+
+.aws-modal-content {
+  padding: 24px;
+}
+
+.aws-modal-footer {
+  padding: 16px 24px;
+  border-top: 1px solid #e9ebed;
+  background-color: #f9fafb;
+}
+
+/* AWS-like dropdown styles */
+.aws-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.aws-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid #d5dbdb;
+}
+
+.aws-dropdown-content.show {
+  display: block;
+}
+
+.aws-dropdown-item {
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #16191f;
+  cursor: pointer;
+}
+
+.aws-dropdown-item:hover {
+  background-color: #f2f3f3;
+}
+
+/* AWS-like table cell styles */
+.aws-table-cell {
+  padding: 8px 16px;
+  border-bottom: 1px solid #e9ebed;
+  font-size: 14px;
+  color: #16191f;
+}
+
+/* AWS-like loading state */
+.aws-loading {
+  color: #5f6b7a;
+  font-size: 14px;
+  padding: 16px;
+  text-align: center;
+}
+
+/* AWS-like empty state */
+.aws-empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: #5f6b7a;
+}
+
+.aws-empty-state h4 {
+  color: #16191f;
+  margin-bottom: 8px;
+}
+
+/* AWS-like file input styles */
+.aws-file-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px dashed #d5dbdb;
+  border-radius: 4px;
+  background-color: #f9fafb;
+  cursor: pointer;
+}
+
+.aws-file-input:hover {
+  border-color: #0972d3;
+}
+/* 
+#CSS for the basic MVP design
+  #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -40,3 +250,4 @@
 .read-the-docs {
   color: #888;
 }
+ */
