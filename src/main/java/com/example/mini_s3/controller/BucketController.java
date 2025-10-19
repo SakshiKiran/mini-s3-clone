@@ -25,6 +25,12 @@ public class BucketController {
     public List<String> listBuckets() throws IOException {
         return storage.listBuckets();
     }
+    @DeleteMapping("/{bucket}")
+    public ResponseEntity<Void> deleteBucket(@PathVariable String bucket) throws IOException {
+        storage.deleteBucket(bucket);
+        return ResponseEntity.noContent().build();
+    }
+
 
     
 }
